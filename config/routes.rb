@@ -2,9 +2,6 @@ Omrails::Application.routes.draw do
   resources :pins
 
 
-  resources :emails
-
-
   devise_for :views
 
   devise_for :users
